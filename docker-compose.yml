@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python:
+    build: .
+    container_name: youtube_livechat_replay_crawler
+    volumes:
+      - ./opt:/opt
+    environment:
