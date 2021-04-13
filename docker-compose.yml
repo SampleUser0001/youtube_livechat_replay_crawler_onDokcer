@@ -5,4 +5,5 @@ services:
     container_name: youtube_livechat_replay_crawler
     volumes:
       - ./opt:/opt
-    environment:
+#    environment:
+    
